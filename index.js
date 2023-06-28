@@ -12,3 +12,5 @@ app.get("/", (req, res) => {
 
 console.log(`Pseudo game details API by gaurav : PORT : 5000`);
 app.listen(5000);
+
+module.exports = app;
